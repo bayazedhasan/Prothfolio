@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript",
+    "img": "https://i.postimg.cc/nLLRLGjD/javascript.png"
+  },
+  {
+    "id": 2,
+    "title": "HTML",
+    "img": "https://i.postimg.cc/fbb2bft0/html.png"
+  },
+  {
+    "id": 3,
+    "title": "CSS",
+    "img": "https://i.postimg.cc/Gpp7px8t/css.png"
+  },
+  {
+    "id": 4,
+    "title": "Tailwind CSS",
+    "img": "https://i.postimg.cc/Zqq7qxBr/tailwind.png"
+  },
+  {
+    "id": 5,
+    "title": "React",
+    "img": "https://i.postimg.cc/g00S0HX3/react.png"
+  },
+  {
+    "id": 6,
+    "title": "Next.js",
+    "img": "https://i.postimg.cc/yNNQNyg9/nextjs.png"
+  },
+  {
+    "id": 7,
+    "title": "Git",
+    "img": "https://i.postimg.cc/nLLRLGjs/git.png"
+  },
+  {
+    "id": 8,
+    "title": "GitHub",
+    "img": "https://i.postimg.cc/VvtH8sr8/defaultgithub.png"
+  }
+]
