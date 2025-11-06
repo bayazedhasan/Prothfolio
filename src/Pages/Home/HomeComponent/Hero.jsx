@@ -66,7 +66,7 @@ const Hero = () => {
                 <div className="flex justify-center items-center mb-6 lg:mb-0">
                     <img
                         className="w-48 sm:w-64 lg:w-100 h-48 sm:h-64 lg:h-100 rounded-full border-4 border-[#0E8EA3] object-cover transition-all duration-500 shadow-[0_0_20px_#0E8EA3] hover:shadow-[0_0_35px_#0E8EA3]"
-                        src="/public/assetes/profile-pic (2) (1).png"
+                        src="/assetes/profile-pic (2) (1).png"
                         alt="Profile"
                     />
                 </div>

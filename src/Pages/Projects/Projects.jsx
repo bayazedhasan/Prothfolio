@@ -22,7 +22,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-right" data-aos-duration="1000" className='pt-6 sm:pt-8 lg:pt-10'>
                     <div className='w-full sm:w-[95%] lg:w-105 flex flex-col text-center border border-none p-4 sm:p-6 lg:p-8 rounded-xl bg-gradient-to-b from-[#926312] from-30% to-[#1C2133] to-60% transition-transform duration-300 hover:scale-105 mx-auto'>
                         <div>
-                            <img className='w-full h-36 sm:h-48 lg:h-50 rounded-lg object-cover' src="/public/assetes/Screenshot 2025-11-05 180541.png" alt="" />
+                            <img className='w-full h-36 sm:h-48 lg:h-50 rounded-lg object-cover' src="/assetes/Screenshot 2025-11-05 180541.png" alt="" />
                         </div>
 
                         <div className='flex flex-col items-center pt-6 sm:pt-8'>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-right" data-aos-duration="1000">
                     <div className='w-full sm:w-[95%] lg:w-105 flex flex-col text-center border border-none p-4 sm:p-6 lg:p-8 rounded-xl bg-gradient-to-b from-[#926312] from-30% to-[#1C2133] to-60% transition-transform duration-300 hover:scale-105 mx-auto'>
                         <div>
-                            <img className='w-full h-36 sm:h-48 lg:h-50 rounded-lg object-cover' src="/public/assetes/Screenshot 2025-11-05 180541.png" alt="" />
+                            <img className='w-full h-36 sm:h-48 lg:h-50 rounded-lg object-cover' src="/assetes/Screenshot 2025-11-05 180541.png" alt="" />
                         </div>
 
                         <div className='flex flex-col items-center pt-6 sm:pt-8'>
@@ -98,7 +98,7 @@ const Projects = () => {
                 <div data-aos="zoom-in-right" data-aos-duration="1000" className=' sm:pt-8 lg:pt-10'>
                     <div className='w-full sm:w-[95%] lg:w-105 flex flex-col text-center border border-none p-4 sm:p-6 lg:p-8 rounded-xl bg-gradient-to-b from-[#926312] from-30% to-[#1C2133] to-60% transition-transform duration-300 hover:scale-105 mx-auto'>
                         <div>
-                            <img className='w-full h-36 sm:h-48 lg:h-50 rounded-lg object-cover' src="/public/assetes/Screenshot 2025-11-05 180541.png" alt="" />
+                            <img className='w-full h-36 sm:h-48 lg:h-50 rounded-lg object-cover' src="/assetes/Screenshot 2025-11-05 180541.png" alt="" />
                         </div>
 
                         <div className='flex flex-col items-center pt-6 sm:pt-8'>
