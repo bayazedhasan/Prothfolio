@@ -47,12 +47,16 @@ const Projects = () => {
                             </div>
 
                             <div className='flex flex-wrap justify-center gap-4 sm:gap-5 items-center mt-6 sm:mt-8'>
-                                <div className='border px-6 sm:px-8 py-2 rounded-xl bg-[#FFFFFF] cursor-pointer hover:bg-gray-300 text-black font-bold'>
+                                <a href="https://my-shop-ten-zeta.vercel.app/">
+                                    <div className='border px-6 sm:px-8 py-2 rounded-xl bg-[#FFFFFF] cursor-pointer hover:bg-gray-300 text-black font-bold'>
                                     <button className='cursor-pointer text-sm sm:text-base'>Live Demo</button>
                                 </div>
-                                <div className='border px-6 sm:px-8 py-2 rounded-xl border-[#A2A7B0] hover:text-black hover:bg-[#FFFFFF] font-bold cursor-pointer'>
+                                </a>
+                                <a href="https://github.com/bayazedhasan/my-shop">
+                                    <div className='border px-6 sm:px-8 py-2 rounded-xl border-[#A2A7B0] hover:text-black hover:bg-[#FFFFFF] font-bold cursor-pointer'>
                                     <button className='cursor-pointer text-sm sm:text-base'>Code</button>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
