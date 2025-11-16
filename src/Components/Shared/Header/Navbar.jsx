@@ -60,10 +60,10 @@ const Navbar = () => {
 
         {/* Right: Theme switcher + Resume */}
         <div className='flex gap-4 items-center'>
-          <div className='flex items-center justify-center gap-2 px-3 py-1.5 bg-[#262626] rounded-md shadow transition-transform hover:-translate-y-1 duration-300'>
+          <a href="https://www.canva.com/design/DAG4matq9oY/flHYLeBeNXUnw8Qu8U8Etg/view?utm_content=DAG4matq9oY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0ab91e8c3"><div className='flex items-center justify-center gap-2 px-3 py-1.5 bg-[#262626] rounded-md shadow transition-transform hover:-translate-y-1 duration-300'>
             <FiDownload />
             <p className='text-sm text-[#FFFFFF] font-bold'>Resume</p>
-          </div>
+          </div></a>
           <ThemeSwitcher />
         </div>
 
