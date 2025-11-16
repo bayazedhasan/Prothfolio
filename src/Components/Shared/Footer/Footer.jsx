@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
 
                 {/* Center Section */}
-                <div className='flex-1 text-center lg:text-left'>
+                <div className='flex text-center lg:text-left'>
                     <p className='text-sm sm:text-base'>
                         Copyright © 2025 <span className='text-[#FF6900] font-bold'>Bayazed Hasan</span>
                     </p>

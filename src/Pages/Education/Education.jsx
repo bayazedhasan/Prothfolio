@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../../Components/Shared/Footer/Footer';
 
 const Education = () => {
     const [education, setEducation] = useState([]);
@@ -10,8 +11,8 @@ const Education = () => {
     }, []);
 
     return (
-        <section className="text-white py-8 pt-30">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-6">
+        <section className="text-white pt-30">
+            <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-6">
                 <div data-aos="fade-up" className="text-center mb-16">
                     <p className="text-gray-400 tracking-widest uppercase text-sm">|| Education ||</p>
                     <h2 className="text-5xl sm:text-5xl font-extrabold mt-2">My Academic Journey</h2>

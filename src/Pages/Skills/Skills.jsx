@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "../../Components/Shared/Footer/Footer";
 
 export default function Skills() {
     const [filter, setFilter] = useState("All");
@@ -48,8 +49,9 @@ export default function Skills() {
     }, [filter, groups, data]);
 
     return (
-        <section data-aos="fade-up" className=" container mx-auto px-4 md:px-12 lg:px-24 pt-10 ">
-            <div className="flex flex-col items-center text-center pb-6 px-4 md:px-8">
+        <><section >
+           <div data-aos="fade-up" className=" container mx-auto px-4 md:px-12 lg:px-24 pt-10 ">
+             <div className="flex flex-col items-center text-center pb-6 px-4 md:px-8">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white pb-2">
                     Technical Skills
                 </h2>
@@ -80,7 +82,7 @@ export default function Skills() {
             ) : (
                 <div
                     data-aos="zoom-in-right" data-aos-duration="1000"
-                    className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center container mx-auto px-4"
+                    className="grid grid-cols-2 sm:grid-cols-2 lg:w-160 md:grid-cols-4 gap-6 justify-center items-center container mx-auto px-4"
                 >
                     {visible.map((item) => (
                         <div data-aos="Zoom-in" data-aos-duration="1000"
@@ -97,7 +99,7 @@ export default function Skills() {
                                     }}
                                 />
                             </div>
-                            <h3 className="font-semibold text-base sm:text-lg text-white text-center">
+                            <h3 className="font-semibold text-base sm:text-md text-white text-center">
                                 {item.title}
                             </h3>
                         </div>
@@ -105,6 +107,10 @@ export default function Skills() {
                 </div>
 
             )}
+           </div>
+           
         </section>
+        
+        </>
     );
 }
