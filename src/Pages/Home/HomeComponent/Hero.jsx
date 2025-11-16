@@ -11,9 +11,8 @@ import { useState, useEffect } from "react";
 
 
 const Hero = () => {
-    const roles = ["Full Stack Developer",
+    const roles = ["MERN Stack Developer",
         "Frontend Developer",
-        "Backend Developer",
         "React Developer",];
     const [currentRole, setCurrentRole] = useState(0);
 

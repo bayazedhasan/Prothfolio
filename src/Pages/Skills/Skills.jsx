@@ -83,9 +83,9 @@ export default function Skills() {
                     className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center container mx-auto px-4"
                 >
                     {visible.map((item) => (
-                        <div data-aos="zoom-in-right" data-aos-duration="1000"
+                        <div data-aos="Zoom-in" data-aos-duration="1000"
                             key={item.id}
-                            className="flex flex-col items-center justify-center gap-4 p-4 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105"
+                            className="aos-animate flex flex-col items-center justify-center gap-4 p-4 rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105"
                         >
                             <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 flex items-center justify-center rounded-lg overflow-hidden bg-[#262626]">
                                 <img
