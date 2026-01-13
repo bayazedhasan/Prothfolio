@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "../../Components/Shared/Footer/Footer";
+
 
 export default function Skills() {
     const [filter, setFilter] = useState("All");
@@ -31,10 +31,10 @@ export default function Skills() {
     const groups = useMemo(
         () => ({
             Programming: data
-                .filter((d) => ["JavaScript", "React", "Next.js"].includes(d.title))
+                .filter((d) => ["JavaScript", "React", "Next.js", "Redux"].includes(d.title))
                 .map((d) => d.id),
             Frontend: data
-                .filter((d) => ["HTML", "CSS", "Tailwind CSS", "React", "Next.js"].includes(d.title))
+                .filter((d) => ["HTML", "CSS", "Tailwind CSS", "React", "Next.js", "Redux"].includes(d.title))
                 .map((d) => d.id),
             Tools: data
                 .filter((d) => ["Git", "GitHub"].includes(d.title))

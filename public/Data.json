@@ -31,11 +31,16 @@
   },
   {
     "id": 7,
+    "title": "Redux",
+    "img": "https://i.postimg.cc/d177VZx6/Redux-removebg-preview.png"
+  },
+  {
+    "id": 8,
     "title": "Git",
     "img": "https://i.postimg.cc/nLLRLGjs/git.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "GitHub",
     "img": "https://i.postimg.cc/VvtH8sr8/defaultgithub.png"
   }

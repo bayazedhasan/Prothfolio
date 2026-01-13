@@ -40,23 +40,41 @@ const Hero = () => {
 
                     {/* Social Icons */}
                     <div className='flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 items-center pt-4 sm:pt-5'>
-                        <div className='border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full hover:text-gray-700 bg-transparent hover:bg-[#FFFFFF] transition-colors duration-300'>
-                            <LuGithub className='transition-colors duration-300' size={20} />
-                        </div>
-                        <div className="group border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-transparent hover:bg-[#2B7FFF] transition-colors duration-300">
-                            <CiLinkedin className="text-[#2B7FFF] group-hover:text-white transition-colors duration-300" size={20} />
-                        </div>
+                        <a
+                            href="https://github.com/bayazedhasan"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div className='border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full hover:text-gray-700 bg-transparent hover:bg-[#FFFFFF] transition-colors duration-300'>
+                                <LuGithub className='transition-colors duration-300' size={25} />
+                            </div>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/bayazed-hasan/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div className="group border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-transparent hover:bg-[#2B7FFF] transition-colors duration-300">
+                                <CiLinkedin className="text-[#2B7FFF] group-hover:text-white transition-colors duration-300" size={25} />
+                            </div>
+                        </a>
                         <div className='border px-3 border-none sm:px-4 py-1 sm:py-1.5 rounded-full hover:bg-[#FFFFFF] bg-transparent transition-colors duration-300'>
                             <FaXTwitter className="transition-colors hover:text-black duration-300" size={20} />
                         </div>
                         <div className='border px-3 border-none sm:px-4 py-1 sm:py-1.5 rounded-full hover:bg-[#FFFFFF] bg-transparent transition-colors duration-300'>
-                            <FaInstagram className="text-[#E60076] group-hover:text-white transition-colors duration-300" size={20} />
+                            <FaInstagram className="text-[#E60076] group-hover:text-white transition-colors duration-300" size={25} />
                         </div>
-                        <div className="group border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-transparent hover:bg-[#2B7FFF] transition-colors duration-300">
-                            <FaFacebookF className='text-[#1877F2] group-hover:text-white transition-colors duration-300' size={20} />
-                        </div>
+                        <a
+                            href="https://www.facebook.com/bayazedhasan49"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div className="group border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-transparent hover:bg-[#2B7FFF] transition-colors duration-300">
+                                <FaFacebookF className='text-[#1877F2] group-hover:text-white transition-colors duration-300' size={25} />
+                            </div>
+                        </a>
                         <div className="group border border-none px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-transparent hover:bg-[#E7000B] transition-colors duration-300">
-                            <FiYoutube className="text-[#E7000B] group-hover:text-white transition-colors duration-300" size={20} />
+                            <FiYoutube className="text-[#E7000B] group-hover:text-white transition-colors duration-300" size={25} />
                         </div>
                     </div>
                 </div>
