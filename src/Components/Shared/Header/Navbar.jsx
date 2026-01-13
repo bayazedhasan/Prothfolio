@@ -28,11 +28,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed lg:top-1 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed lg:top-1 left-0 w-full z-50 transition-all duration-300 ${scrolled
           ? "bg-[#111111]/60 backdrop-blur-md shadow-md lg:container lg:mx-auto lg:px-24"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className='flex justify-between items-center container mx-auto px-4 sm:px-6 lg:px-24 py-4'>
         {/* Left: Menu */}
@@ -60,10 +59,13 @@ const Navbar = () => {
 
         {/* Right: Theme switcher + Resume */}
         <div className='flex gap-4 items-center'>
-          <a href="https://www.canva.com/design/DAG4matq9oY/flHYLeBeNXUnw8Qu8U8Etg/view?utm_content=DAG4matq9oY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0ab91e8c3"><div className='flex items-center justify-center gap-2 px-3 py-1.5 bg-[#262626] rounded-md shadow transition-transform hover:-translate-y-1 duration-300'>
-            <FiDownload />
-            <p className='text-sm cursor-pointer text-[#FFFFFF] font-bold'>Resume</p>
-          </div></a>
+          <a href="https://www.canva.com/design/DAG4matq9oY/flHYLeBeNXUnw8Qu8U8Etg/view?utm_content=DAG4matq9oY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0ab91e8c3"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><div className='flex items-center justify-center gap-2 px-3 py-1.5 bg-[#262626] rounded-md shadow transition-transform hover:-translate-y-1 duration-300'>
+              <FiDownload />
+              <p className='text-sm cursor-pointer text-[#FFFFFF] font-bold'>Resume</p>
+            </div></a>
           <ThemeSwitcher />
         </div>
 
