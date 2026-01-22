@@ -44,7 +44,7 @@ const Contact = () => {
       })
       .catch((error) => {
         console.error(error);
-        alert("Failed to send message ❌");
+        alert("Failed to send message  ❌");
       })
       .finally(() => {
         setLoading(false);
