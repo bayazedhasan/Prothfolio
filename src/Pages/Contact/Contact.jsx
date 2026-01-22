@@ -24,15 +24,15 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_3zoslfa",   
-        "template_luqqn64",   
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
           reply_to: formData.email
         },
-        "5SF6JBeu9FHchbczb"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         alert("Message sent successfully ✅");
