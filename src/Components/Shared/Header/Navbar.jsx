@@ -59,7 +59,7 @@ const Navbar = () => {
 
         {/* Right: Theme switcher + Resume */}
         <div className='flex gap-4 items-center'>
-          <a href="https://www.canva.com/design/DAG4matq9oY/flHYLeBeNXUnw8Qu8U8Etg/view?utm_content=DAG4matq9oY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha0ab91e8c3"
+          <a href="https://drive.google.com/file/d/1WDVqLVVsxd1ERlzhh7XiS8Q0gMNfXk01/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           ><div className='flex items-center justify-center gap-2 px-3 py-1.5 bg-[#262626] rounded-md shadow transition-transform hover:-translate-y-1 duration-300'>
