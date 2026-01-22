@@ -17,25 +17,22 @@ const Contact = () => {
       [name]: value,
     });
   };
-  // console
-  console.log("Service ID:", import.meta.env.VITE_EMAILJS_SERVICE_ID);
-  console.log("Template ID:", import.meta.env.VITE_EMAILJS_TEMPLATE_ID);
-  console.log("Public Key:", import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        "service_3zoslfa",   
+        "template_luqqn64",   
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
           reply_to: formData.email
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        "5SF6JBeu9FHchbczb"
       )
       .then(() => {
         alert("Message sent successfully ✅");
