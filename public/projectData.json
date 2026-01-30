@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Ed-Care",
+    "image": "/assetes/Screenshot 2025-11-19 195516.png",
+    "description": "Ed Care, an education-focused platform designed to provide students with accessible learning resources, academic guidance. Designed a unique, responsive UI for better user experience.",
+    "tags": [
+      "MERN Stack",
+      "Next.Js",
+      "Javascript",
+      "Tailwind",
+      "Others Librarie"
+    ],
+    "live": "https://ed-care.vercel.app/",
+    "github": "https://github.com/bayazedhasan/ED-Care"
+  },
+  {
+    "id": 2,
+    "title": "My-Shop",
+    "image": "/assetes/my-shop.png",
+    "description": "My-Shop is a modern and reliable e-commerce platform offering a wide range of high-quality products with a clean design and smooth shopping experience.",
+    "tags": [
+      "MERN Stack",
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Others Librarie"
+    ],
+    "live": "https://my-shop-ten-zeta.vercel.app/",
+    "github": "https://github.com/bayazedhasan/my-shop"
+  },
+  {
+    "id": 3,
+    "title": "Dashboard",
+    "image": "/assetes/Screenshot 2026-01-30 233827.png",
+    "description": "A fully responsive and interactive web dashboard built with React and Tailwind, featuring clean UI, data visualization, and quick access actions for admin and analytics.",
+    "tags": [
+      "MERN Stack",
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Others Librarie"
+    ],
+    "live": "https://dashboardbayazed.vercel.app/",
+    "github": "https://github.com/bayazedhasan/dashboard"
+  },
+  {
+    "id": 4,
+    "title": "Bangla-Cat",
+    "image": "/assetes/demo.png",
+    "description": "BanglaCAT is a fully responsive platform that provides detailed information on power solutions, heavy machinery, and marine engines.",
+    "tags": [
+      "MERN Stack",
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Others Librarie"
+    ],
+    "live": "https://bangla-cat.vercel.app/",
+    "github": "https://github.com/bayazedhasan/Bangla-Cat"
+  },
+  {
+    "id": 5,
+    "title": "Travels-Site",
+    "image": "https://i.postimg.cc/9M628RRv/Beautiful-places-in-Bangladesh-WMC-hero.jpg",
+    "description": "A travel website helps you explore destinations, find hotels, book flights, and plan trips easily, making your journey smooth and enjoyable.",
+    "tags": [
+      "MERN Stack",
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Others Librarie"
+    ],
+    "live": "https://travel-site-ochre.vercel.app/",
+    "github": "https://github.com/bayazedhasan/Travel-Site"
+  },
+  {
+    "id": 6,
+    "title": "Book-Vibe",
+    "image": "/assetes/Screenshot 2026-01-30 235638.png",
+    "description": "A responsive React web application for discovering and managing books, featuring book details page, user login with authentication, profile editing, and add-to-cart functionality. Built with clean UI/UX, fast performance, and modern web technologies for a seamless user experience.",
+    "tags": [
+      "MERN Stack",
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Others Librarie"
+    ],
+    "live": "https://book-vibe-v.vercel.app/",
+    "github": "https://github.com/bayazedhasan/Book-Vibe"
+  }
+]

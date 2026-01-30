@@ -9,7 +9,7 @@ import { MdOutlineAlternateEmail } from 'react-icons/md';
 const Footer = () => {
     return (
         <footer className='bg-[#27272A]'>
-            <div className='flex flex-col lg:flex-row justify-between items-start lg:items-center container mx-auto px-4 sm:px-6 py-4 gap-12'>
+            <div className='flex flex-col text-[#FFFFFF] lg:flex-row justify-between items-start lg:items-center  px-4 sm:px-6 lg:px-8 py-4 gap-12'>
 
                 {/* Left Section */}
                 <div className='flex-1'>
